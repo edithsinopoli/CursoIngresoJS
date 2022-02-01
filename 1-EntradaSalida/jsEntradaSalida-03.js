@@ -5,8 +5,14 @@ function mostrar()
 {
 	var nombreIngresado;
 	nombreIngresado=txtIdNombre.value;
-	alert("ok");
+	alert(nombreIngresado);
 
 }
-
+//31/01/2022
+//function mostrar()
+//{//copiar el id del html del input
+//nombre = document.getElementById("txtIdNombre").value; tambien se puede hacer: nombre=txtIdNombre.value (no se recomienda usarlo asi)
+//document permite acceder a todo el archivo del html. Value trae solo el valor
+// alert(nombre);	
+//}
 
